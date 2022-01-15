@@ -12,10 +12,6 @@ function Book(author, title, numberOfPages) {
 Book.prototype.setReadState = function() {
     this.isRead = this.isRead === false ? true : false;
 }
-Book.prototype.getInfo = function() {
-    return "Author: " + this.author + "\n" + "Title: " + this.title +
-    "\n" + "Number of pages: " + this.numberOfPages;  
-}
 
 //global functions
 function addBookToLibrary(book) {
