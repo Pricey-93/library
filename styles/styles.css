@@ -1,0 +1,45 @@
+header {
+    text-align: center;
+    background-color: aqua;
+}
+button {
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+}
+#modal-container {
+    display: flex;
+    justify-content: center;
+}
+#modal {
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: red;
+    display: none;
+    position: fixed;
+    z-index: 999;
+}
+.modal-form {
+    padding: 50px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.submit {
+    padding: 10px 20px;
+}
+.book-container {
+    padding: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.book-card {
+    padding: 200px;
+    background-color: rebeccapurple;
+}

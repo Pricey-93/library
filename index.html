@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/script.js" defer></script>
     <title>Library</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Library</h1>
+    </header>
+    <button id="add-book-btn" type="button">Add book</button>
+    <div id="modal-container">
+        <div id="modal">
+            <form class="modal-form">
+                <label for="name">Title: </label>
+                <input type="text" name="Author" id="Author" required>
+                <label for="name">Author: </label>
+                <input type="text" name="Title" id="Title" required>
+                <label for="name">Pages: </label>
+                <input type="text" name="Pages" id="Pages" required>
+                <input type="submit" class="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <div class="book-container">
+        <div class="book-card"></div>
+        <div class="book-card"></div>
+        <div class="book-card"></div>
+        <div class="book-card"></div>
+        <div class="book-card"></div>
+        <div class="book-card"></div>
+    </div>
 </body>
 </html>
