@@ -17,22 +17,27 @@
         <div id="modal">
             <form class="modal-form">
                 <label for="name">Title: </label>
-                <input type="text" name="Author" id="Author" required>
+                <input type="text" name="Title" id="title" required>
                 <label for="name">Author: </label>
-                <input type="text" name="Title" id="Title" required>
+                <input type="text" name="Author" id="author" required>
                 <label for="name">Pages: </label>
-                <input type="text" name="Pages" id="Pages" required>
-                <input type="submit" class="submit" value="Submit">
+                <input type="text" name="Pages" id="pages" required>
+                <input type="submit" id="submit" value="Submit">
             </form>
         </div>
     </div>
-    <div class="book-container">
-        <div class="book-card"></div>
-        <div class="book-card"></div>
-        <div class="book-card"></div>
-        <div class="book-card"></div>
-        <div class="book-card"></div>
-        <div class="book-card"></div>
+    <div id="book-container">
+        <div class="book-card">
+            <h3>Title:</h3>
+            <p>the title</p>
+            <h3>Author:</h3>
+            <p>the author</p>
+            <h3>Pages:</h3>
+            <p>the pages </p>
+            <button class="remove-book-btn">
+                Remove Book
+            </button>
+        </div>
     </div>
 </body>
 </html>
